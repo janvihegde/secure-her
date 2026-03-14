@@ -3,12 +3,11 @@
 @tailwind utilities;
 
 .animated-bg {
-  /* Use fixed if you want the background to stay still while scrolling */
   background: linear-gradient(-45deg, #ffe4e1, #ffb6c1, #ffc0cb, #ff69b4);
   background-size: 400% 400%;
-  animation: gradientBG 15s ease infinite;
+  animation: gradientBG 6s ease infinite;
   width: 100%;
-  min-height: 100vh; /* Ensures it is at least the height of the screen */
+  min-height: 100vh; 
 }
 
 @keyframes gradientBG {
